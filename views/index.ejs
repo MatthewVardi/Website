@@ -1,22 +1,81 @@
 <% include ./partials/header %>
 
 
-<section id ="header" class="jumbotron text-center p-3 jumboclass">
-    <h1 class = "display-3 text-white"> Hello </h1>
-    <p class = "lead text-white"> My name is Matthew Vardi</p>
-    
+
+<section id ="header" class="jumbotron text-center p-5">
+		<div id = "shadow" class="container">
+			<h1 class = "display-5 text-white"> Hello </h1>
+	    	<p class = "lead text-white"> I'm Matthew Vardi</p>	
+	    	<p class = "lead text-white"> Welcome to my website</p>	
+		</div>
+		
 </section>
 
-<div class = "fluid-container text-center">
-	<p class = "lead"> Test Parapgraph </p>	
-	<p class = "lead"> Something About me </p>
-	<a class = "btn btn-danger" href = "/resume" target="_blank">View my Resume</a>
-	<a class = "btn btn-info" href = "https://www.linkedin.com/in/matthewvardi/"
-	 target="_blank">View my LinkedIn</a>
-	<p class = "lead m-5"> Work in Progress </p>	
-	<p class = "lead m-5"> Contact me at <a href="#"> Matthew.Vardi@gmail.com</a></p>	
 
+<h2 id = "about" class = "text-center"><strong> About Me</strong></h2>
+<section class="container-fluid mb-5">
+	<div class="row align-items-center justify-content-around">
+		<div class = "col-md-6 order-1 d-none d-md-block">
+			<img src= "stylesheets/me.jpeg" class = "rounded img-fluid">
+		</div>
+		<div class = "col-md-6 order-2 ">
+			<p class = "lead text-center"> I am a recent college graduate with a strong passion for technology. Ever since I was a young boy, technology has held a strong role in my life. I chose Computer Science as my field of study because I wanted to get a stronger illustration of how everything works together.</p>
+			<p class="lead text-center">
+			I am currently working on my enriching my portfolio and seeking to break into the tech industry.
+			</p>
+			<p class="lead text-center">
+				<a class = "btn btn-success" href = "/resume" target="_blank">View my Resume</a>
+			</p>
+		</div>
+	</div>
+</section>
+<h2 class = "text-center"> <strong>Programming Languages</strong> </h2>
+<section id = "proglang" class="container-fluid mb-5">
+	<div class="row align-items-center justify-content-around">
+		<div class = "col-md-3">
+			<div class="container">
+				<img src = "stylesheets/c++.png" class = "img-fluid">
+			</div>
+		</div>
+		<div class = "col-md-3">
+			<div class="container">
+				<img src = "stylesheets/htmlcssjs.png" class = "img-fluid">
+			</div>
+		</div>
+		<div class = "col-md-3">
+			<div class="container">
+				<img src = "stylesheets/python.svg" class = "img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+<h2 class = "text-center"> <strong>Projects</strong> </h2>
+<section id = "projects" class="container-fluid mb-5 ">
+	<div class="row align-items-center justify-content-around">
+		<div class = "col-md-10">
+			<div class="row justify-content-center">
+				<p class="lead text-center">
+					To Do List Web Application using Node / Express / MongoDB
+					featuring:
+					<br>
+					<ul>
+						<li>RESTful Routing</li>
+						<li>CRUD Functionality</li>
+						<li>User Authentication & Authorization</li>
+					</ul>
+				</p>
+
+			</div>
+			<div class="text-center">
+			<button class="btn btn-danger">Coming Soon</button>	
+			</div>	
+		</div>	
+	</div>
+</section>
+
+
+<div id = "contact" class = "container-fluid text-center px-5 ">
+	<p id = "contact" class = "lead m-5"> Contact me at <a href="#">Matthew.Vardi@gmail.com</a></p>
 </div>
-
 
 <% include ./partials/footer %>

@@ -27,7 +27,6 @@ app.get('/resume', function (req, res) {
     		res.contentType("application/pdf");
         	res.send(data);	
     	}
-
     });
 });
 
