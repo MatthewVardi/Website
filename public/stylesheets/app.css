@@ -1,0 +1,14 @@
+/*
+For Any Custom CSS
+*/
+
+body {
+	background-color: pink;
+}
+
+#header {
+	background: url("stars.jpeg");
+	background-size:cover;
+    /* background: url("stars.jpeg") center center / cover no-repeat; */
+}
+
