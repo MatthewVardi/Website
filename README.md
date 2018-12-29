@@ -11,6 +11,10 @@ To be uploaded on Matthewvardi.com
 - Decided to leave out a contact form and just include my email address
 - Included anchor tags to linkedin, github and facebook
 
+	  7:25 PM
+- Change navbar to be responsive on mobile
+- Rearranged some id tags
+
 
 
 View it currently at: https://gentle-woodland-93936.herokuapp.com/
