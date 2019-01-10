@@ -34,4 +34,5 @@ app.get('/resume', function (req, res) {
 
 app.listen(3000, function (){
 	console.log("Server has started")
+	console.log("Server has started")
 });
