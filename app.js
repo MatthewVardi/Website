@@ -32,6 +32,6 @@ app.get('/resume', function (req, res) {
 
 
 
-app.listen(process.env.PORT, process.env.IP, function (){
+app.listen(3000, function (){
 	console.log("Server has started")
 });
