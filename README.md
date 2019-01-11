@@ -18,5 +18,8 @@ To be uploaded on Matthewvardi.com
 1/1/19
 Edited about me
 
+1/10/19
+Full website overhaul
+
 View it currently at: https://gentle-woodland-93936.herokuapp.com/
 
