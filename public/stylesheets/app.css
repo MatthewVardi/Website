@@ -1,56 +1,145 @@
 /*
-For Any Custom CSS
-*/
+    For Any Custom CSS
+    */
 
+    .bg-blue {
+        background: #313b50;
+    }
 
-body {
-	background: #f6f5f3;
-	font-family: 'Open Sans', sans-serif;
-}
-
-#header {
-	background: url("mountains.jpeg") center center;
-	background-size:cover;
-	/*filter: grayscale(75%);*/
-    /* background: url("stars.jpeg") center center / cover no-repeat; */
-}
-#shadow {
-	text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8); 
-}
-
-#icons {
-	font-size: 1.5em;
-}
-
-
-#mainNavbar {
-    font-size: 1.3rem;
-    font-weight: 100; 
-}
-
-#mainNavbar .nav-link {
-    color: white;
-    font-weight: 300;
-    font-size: 0.9em;
+    .footer {
+        background: #313b50;
+    }
     
-}
-
-#mainNavbar .nav-link:hover {
-    color: #4289f4;
-}
-
-/*#mainNavbar .navbar-brand {
-    color: white;
-    font-size: 1.5rem;
-}*/
-
-.navbar.scrolled {
-    background: #385A73;
-    transition: background 200ms;
-    /*opacity:0.8;*/
-}
-
-.fa-laptop {
-	font-size: 1.5em;
-}
+    .bg-cyan {
+        background: #3ca9bd;
+    }
+    
+    .card {
+        background: #3ca9bd;
+        border: none;
+    }
+    
+    .bg-beige {
+        background: #eee9df;
+    }
+    
+    form {
+        display: inline-block;
+    }
+    
+    nav {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    body {
+        background: #eee9df;
+        font-family: 'Lato';
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 700;
+        font-family: 'Lato';
+    }
+    
+    #header {
+        background: url("mountains.jpeg") center center;
+        background-size: cover;
+        /*filter: grayscale(75%);*/
+        /* background: url("stars.jpeg") center center / cover no-repeat; */
+    }
+    
+    #shadow {
+        text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    #icons {
+        font-size: 1.5em;
+    }
+    
+    .fa-laptop {
+        font-size: 1.5em;
+    }
+    
+    header.masthead {
+        padding-top: calc(6rem + 72px);
+        padding-bottom: 6rem;
+    }
+    
+    header.masthead h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    header.masthead h2 {
+        font-size: 1.3rem;
+        font-family: 'Lato';
+    }
+    
+    @media (min-width: 992px) {
+        header.masthead {
+            padding-top: calc(2rem + 20px);
+            padding-bottom: 6rem;
+        }
+        header.masthead h1 {
+            font-size: 4.75em;
+            line-height: 4rem;
+        }
+        header.masthead h2 {
+            font-size: 1.75em;
+        }
+    }
+    
+    hr.star-light,
+    hr.star-dark {
+        max-width: 15rem;
+        padding: 0;
+        text-align: center;
+        border: none;
+        border-top: solid 0.25rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    hr.star-light:after,
+    hr.star-dark:after {
+        position: relative;
+        top: -.8em;
+        display: inline-block;
+        padding: 0 0.25em;
+        content: '\f005';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2em;
+    }
+    
+    hr.star-light {
+        border-color: #fff;
+    }
+    
+    hr.star-light:after {
+        color: #fff;
+        background-color: #3ca9bd;
+    }
+    
+    hr.star-dark {
+        border-color: #2C3E50;
+    }
+    
+    hr.star-dark:after {
+        color: #2C3E50;
+        background-color: #eee9df;
+    }
+    
+    .portfolio {
+        margin-bottom: -15px;
+        background: #3ca9bd;
+    }
 

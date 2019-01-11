@@ -1,104 +1,120 @@
 <% include ./partials/header %>
 
-
-
-<section id ="header" class="jumbotron text-center p-5">
-        <div id = "shadow" class="container-fluid">
-            <h1 class = "display-5 text-white"> Hello </h1>
-            <p class = "lead text-white"> I'm Matthew Vardi</p>	
-            <p class = "lead text-white"> Welcome to my website</p>	
+<!-- Header -->
+<header class="masthead bg-cyan text-white text-center">
+        <div class="container">
+            <img class="img-fluid mb-2 d-block mx-auto" src="stylesheets/icon.svg" width = "300">
+            <h1 class="text-uppercase">Welcome</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light">Web Developer - Software Engineer - Tech Enthusiast</h2>
         </div>
-        
+</header>
+
+<!-- About Section -->
+<section class="bg-beige text-dark mb-5" id="about">
+        <div class="container pt-5">
+          <h2 class="text-center text-uppercase text-dark">About</h2>
+          <hr class="star-dark mb-5">
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <p class="lead">I am a recent college graduate with a strong passion for technology. Technology has always held a strong role in my life. I chose Computer Science as my field of study because I wanted to get a stronger illustration of how everything works together.</p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+              <p class="lead">My current focus is enriching my project portfolio and breaking into the tech industry in a software or web development role. Be sure to check out my projects below - you can even try out a live demo!</p>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-dark" href="/resume" target = "_blank">
+              View My Resume
+            </a>
+          </div>
+        </div>
 </section>
 
-
-<h2 id = "about" class = "text-center"><strong> About Me</strong></h2>
-<section class="container-fluid mb-5">
-    <div class="row align-items-center justify-content-around">
-        <div class = "col-md-6 order-1 d-none d-md-block">
-            <img src= "stylesheets/me.jpeg" class = "img-fluid">
+<!-- Projects Grid Section -->
+<section id = "projects" class="portfolio mb-5" >
+        <div class="container pt-5">
+          <h2 class="text-center text-uppercase text-white mb-0">Projects</h2>
+          <hr class="star-light mb-5">
+          <div class="row justify-content-around">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card text-left text-white">
+                        <img class="card-img-top" src="stylesheets/weather.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Web App</h5>
+                            <p class="card-text">Simple form that pulls current weather data from OpenWeatherMap's API.</p>
+                        </div>
+                        <div class="card-body">
+                                <form action = "https://radiant-hamlet-49630.herokuapp.com/">
+                                    <button class="btn btn-outline-light">Try it out</button>
+                                </form>
+                                <form class = "my-2"action = "https://github.com/MatthewVardi/Weather-App/">
+                                    <button class="btn btn-outline-light">View Source Code</button>
+                                </form>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card text-left text-white">
+                        <img class="card-img-top" src="stylesheets/todolist.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">To Do List Web App</h5>
+                            <p class="card-text"> Created with Node / Express / MongoDB, features:
+                                <ul>
+                                        <li>RESTful Routing</li>
+                                        <li>CRUD Functionality</li>
+                                        <li>User Authentication & Authorization</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="card-body">
+                                <form action = "https://rocky-thicket-30584.herokuapp.com/">
+                                    <button class="btn btn-outline-light">Try it out</button>
+                                </form>
+                                <form class = "my-2"action = "https://github.com/MatthewVardi/ToDo-List/">
+                                    <button class="btn btn-outline-light">View Source Code</button>
+                                </form>
+                        </div>
+                    </div>
+            </div>
+          </div>
         </div>
-        <div class = "col-md-6 order-2 ">
-            <p class = "lead text-center"> I am a recent college graduate with a strong passion for technology. Technology has always held a strong role in my life. I chose Computer Science as my field of study because I wanted to get a stronger illustration of how everything works together.</p>
-            <p class="lead text-center">
-            I am currently working on enriching my portfolio and seeking to break into the tech industry.
-            </p>
-            <p class="lead text-center">
-                <a class = "btn btn-success" href = "/resume" target="_blank">View my Resume</a>
-            </p>
-        </div>
-    </div>
 </section>
-<h2 id = "proglang" class = "text-center"> <strong>Programming Languages</strong> </h2>
-<section class="container-fluid mb-5">
-    <div class="row align-items-center justify-content-around">
-        <div class = "col-md-3">
-            <div class="container">
-                <img src = "stylesheets/c++.png" class = "img-fluid">
-            </div>
+
+<!-- Programming Languages and tools section -->
+<section id = "proglang" class="container mb-5">
+    <h2 class="text-center text-uppercase text-dark mb-0">Languages and Tools</h2>
+    <hr class="star-dark mb-5">
+    <div class="row align-items-center justify-content-center">
+        <div class = "col-md-2 d-none d-md-block">
+            <img src = "stylesheets/c++.png" class = "img-fluid">
         </div>
-        <div class = "col-md-3">
-            <div class="container">
-                <img src = "stylesheets/htmlcssjs.png" class = "img-fluid">
-            </div>
+        <div class = "col-md-4 d-none d-md-block">
+            <img src = "stylesheets/htmlcssjs.png" class = "img-fluid">
         </div>
-        <div class = "col-md-3">
-            <div class="container">
+        <div class = "col-md-2 d-none d-md-block">
+            <img src = "stylesheets/nodejs.png" class = "img-fluid">
+        </div>
+        <div class = "col-md-2 d-none d-md-block">
+                <img src = "stylesheets/mongodb.png" class = "img-fluid">
+        </div>
+        <div class = "col-md-2 d-none d-md-block">
                 <img src = "stylesheets/python.svg" class = "img-fluid">
-            </div>
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+        <div class="d-block d-md-none" >
+                <ul style="list-style-type:none">
+                    <li><h3> C++</h3></li>
+                    <li><h3> HTML5</h3></li>
+                    <li><h3> CSS3</h3></li>
+                    <li><h3> JavaScript</h3></li>
+                    <li><h3> Node.js</h3></li>
+                    <li><h3> MongoDB</h3></li>
+                    <li><h3> Python</h3></li>
+                </ul>  
         </div>
     </div>
 </section>
-<h2 id = "projects" class = "text-center"> <strong>Projects</strong> </h2>
-<section class="container-fluid mb-5 ">
-    <div class="row align-items-center justify-content-around">
-        <div class = "col-10">
-            <div class="row justify-content-center">
-                <p class="lead text-center">
-                    To Do List Web Application using Node / Express / MongoDB featuring:
-                </p>
-            </div>
-            <div class="row justify-content-center">
-                        <ul>
-                            <li>RESTful Routing</li>
-                            <li>CRUD Functionality</li>
-                            <li>User Authentication & Authorization</li>
-                        </ul>
-            </div>
-            <div class="text-center">
-                <form action = "https://rocky-thicket-30584.herokuapp.com/">
-                    <button class="btn btn-success">Try it out</button>
-                </form>
-                <form class = "my-2"action = "https://github.com/MatthewVardi/ToDo-List/">
-                    <button class="btn btn-success">View Source Code</button>
-                </form>
-            </div>
-            <div class="row justify-content-center">
-                    <p class="lead text-center">
-                            Weather Web App
-                    </p>
-            </div>
-            <div class="row justify-content-center">
-
-                    <ul>
-                        <li>Openweathermap API</li>
-                    </ul>
-            </div>
-            <div class="text-center">
-                <form action = "https://radiant-hamlet-49630.herokuapp.com/">
-                    <button class="btn btn-success">Try it out</button>
-                </form>
-                <form class = "my-2"action = "https://github.com/MatthewVardi/Weather-App/">
-                    <button class="btn btn-success">View Source Code</button>
-                </form>
-            </div>		
-        </div>	
-    </div>
-</section>
-
-
-<div id = "contact" class = "container-fluid justify-content-between ">
-    <p id = "contact" class = "lead text-center"> Contact me at <a href="mailto:Matthew.Vardi@gmail.com">Matthew.Vardi@gmail.com</a></p>
-</div>
 
 <% include ./partials/footer %>
