@@ -1,7 +1,9 @@
 /*
     For Any Custom CSS
     */
-
+    html {
+        scroll-behavior: smooth;
+    }
     .bg-blue {
         background: #313b50;
     }
